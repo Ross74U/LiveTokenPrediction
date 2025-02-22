@@ -10,13 +10,14 @@ class StorePredictionBlock:
         self.filename = filename
         self.count = 0
 
-    def put(self, block):
+    def put(self, block : tokenPredictorBlock):
         blockdict = {
             "voskstrs": [],
             "whisperstr": "",
-            "voskt": 0,
+            "voskt": [],
             "whispert": 0
-        
+        } 
+    
     # hey this is a comment written in neovim with nothing else, lol. okay nvm it is actually written in this super duper awesome nvim prerice NVChad.
 
         blockdict["voskstrs"] = block.vosk_strings
@@ -46,11 +47,3 @@ class StorePredictionBlock:
         
         self.count += 1
 
-    def read_specific_block(filename, block_name):
-        """Utility function to read a specific block without loading entire file"""
-        with open(filename, 'r') as f:
-            for line in f:
-                entry = json.loads(line)
-                if block_name in entry:
-                    return entry[block_name]
-        return None
