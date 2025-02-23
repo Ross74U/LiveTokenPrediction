@@ -348,3 +348,171 @@ INFO:root:ended vosk thread
 INFO:root:block stored and removed from queue
 INFO:root:requesting to start whisper thread
 INFO:root:ended vosk thread
+INFO:root:Silero model intialized
+INFO:root:Activity monitor initialized
+INFO:root:started vosk thread
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:03.200
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:block stored and removed from queue
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:faster_whisper:Processing audio with duration 00:42.880
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:Silero model intialized
+INFO:root:Activity monitor initialized
+INFO:root:started vosk thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:faster_whisper:Processing audio with duration 00:09.600
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:faster_whisper:Processing audio with duration 00:28.160
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:faster_whisper:Processing audio with duration 00:10.240
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:16.000
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:16.000
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:started whisper thread
+INFO:root:ended whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:ended whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:04.480
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:03.840
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:block stored and removed from queue
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:08.320
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:02.560
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:05.120
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:faster_whisper:Processing audio with duration 00:45.440
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:started whisper thread
+INFO:root:ended whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:06.400
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.640
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:ended vosk thread
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:08.320
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:root:started whisper thread
+INFO:faster_whisper:Processing audio with duration 00:12.160
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:ended whisper thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:started whisper thread
+INFO:root:ended whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:block stored and removed from queue
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:ended whisper thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:ended vosk thread
+INFO:root:requesting to start whisper thread
+INFO:faster_whisper:Processing audio with duration 00:00.000
+INFO:root:ended whisper thread
+INFO:root:ended vosk thread
+INFO:root:started whisper thread
+INFO:root:started vosk thread
+INFO:root:requesting to start whisper thread
+INFO:root:ended vosk thread
+INFO:root:block stored and removed from queue

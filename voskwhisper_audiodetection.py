@@ -197,10 +197,10 @@ class VoskWhisper:
 
 
 
-                    if self.previous_block_active:
-                        self.previous_block_active_2 = True
-                    else:
-                        self.previous_block_active_2 = False
+                    # if self.previous_block_active:
+                        # self.previous_block_active_2 = True
+                    # else:
+                        # self.previous_block_active_2 = False
                     self.previous_block_active = True
                     
 
@@ -211,19 +211,21 @@ class VoskWhisper:
                     #logging.info("No activity detected on this Block")
                     # if previous block is an activity block, this block marks the end of the current transcription queue.
 
-                    """logic to handle ending a transcription queue (running whisper and ending vosk)"""
+                    """logic to handle ending a transcription queue (running whisper and ending vosk)"""                    
+                    # if self.previous_block_active_2 and not self.previous_block_active:
+                        # self.transcription_model.run_whisper_on_latest_block()
+                        # self.transcription_model.new_block()
                     
-                    if self.previous_block_active_2 and not self.previous_block_active:
-                        self.transcription_model.run_whisper_on_latest_block()
-                        self.transcription_model.new_block()
-                    
+
+                    # if self.previous_block_active:
+                        # self.previous_block_active_2 = True
+                    # else:
+                        # self.previous_block_active_2 = False
+                    # self.previous_block_active = False
 
                     if self.previous_block_active:
-                        self.previous_block_active_2 = True
-                    else:
-                        self.previous_block_active_2 = False
-                    self.previous_block_active = False
-
+                        self.transcription_model.run_whisper_on_latest_block()
+                        self.transcription_model.new_block()
                     
 
                     

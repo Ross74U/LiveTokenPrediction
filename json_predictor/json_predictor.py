@@ -56,6 +56,8 @@ def ProcessJson(predictor: Predictor, filepath: str, output_path: str):
 
         current_block: BlockInfo = data
         
+
+        i : int = 0
         for string in current_block["voskstrs"]:
             if string == "":
                 continue
@@ -64,7 +66,20 @@ def ProcessJson(predictor: Predictor, filepath: str, output_path: str):
             t2: float = time.perf_counter()
             current_block["tokens"].append(info)
             current_block["token_prediction_times"].append(t2-t1)
-        
+
+
+            # try:
+            #     vosk_whisper_delta : float = current_block["whispert"] - (t2-t1) - current_block["voskt"][i]
+            #     print(vosk_whisper_delta)
+            # except:
+            #     pass
+            # i += 1
+
+        print(current_block["tokens"])
+            
+
+        print("next block")
+            
         _jsonl_write(current_block, o)
 
     f.close()

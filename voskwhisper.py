@@ -88,8 +88,8 @@ class TranscriptionModel:
     def __block_killer_daemon(self):
         while True:
             try:
-                timeout = 5
-                waittime = 0
+                timeout : int = 15
+                waittime : int = 0
                 block = self.queue.get()
                 while not block.all_done:
                     time.sleep(0.1)
