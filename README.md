@@ -8,10 +8,10 @@ A hybrid, Vosk + OpenAI whisper based transcription library with per token perct
 
 Designed as a general research testbed for Token Prediction latency reduction approaches 
 and "True Realtime Chatbot Functionality" applications:
-    - **Realtime Backbone Embedding** - continuous sub-millisecond decoding and feedback done by tiny_decoder
-        - implementation of artificial patience, interruption, and other current human-bound behavior
+- **Realtime Backbone Embedding** - continuous sub-millisecond decoding and feedback done by tiny_decoder
+    - implementation of artificial patience, interruption, and other current human-bound behavior
  
-    - **Mixed Audio and Transcription Token** - see CSM by Sesame AI (https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice)  
+- **Mixed Audio and Transcription Token** - see CSM by Sesame AI (https://www.sesame.com/research/crossing_the_uncanny_valley_of_voice)  
 
 To run
 ```
